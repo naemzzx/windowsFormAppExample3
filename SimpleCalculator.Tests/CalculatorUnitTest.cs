@@ -13,6 +13,8 @@ namespace Calculator.Tests
         [Theory]
         [InlineData(3,2,5)]
         [InlineData(0,0,0)]
+        [InlineData(6, 6, 12)]
+        [InlineData(1, 1, 2)]
         [InlineData(double.MaxValue,10,double.MaxValue)]
         [InlineData(double.MaxValue, double.MaxValue, double.MaxValue)] // good case for study
         [InlineData(double.MinValue, 10, double.MinValue)]
